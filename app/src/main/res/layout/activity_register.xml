@@ -25,7 +25,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="25dp"
             android:elevation="5dp"
-            android:text="Travel Apps Booking"
+            android:text="@string/klinik_mobile"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
 
@@ -36,7 +36,7 @@
             android:layout_below="@+id/tvDesc"
             android:layout_alignStart="@+id/tvDesc"
             android:elevation="5dp"
-            android:text="Register"
+            android:text="@string/register"
             android:textColor="@android:color/white"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -128,7 +128,7 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="@color/colorPrimaryDark"
                                 android:drawableStart="@drawable/ic_person"
-                                android:hint="     Masukkan Nama"
+                                android:hint="      Masukan Nama"
                                 android:imeOptions="actionNext"
                                 android:inputType="textPersonName"
                                 android:maxLines="1"
@@ -195,7 +195,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="end|bottom"
                             android:layout_margin="8dp"
-                            android:text="Register"
+                            android:text="@string/register"
                             android:textColor="@android:color/white"
                             android:textSize="16sp"
                             android:theme="@style/Theme.MaterialComponents.Light"
@@ -228,7 +228,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            android:text="© Travel Apps by Azhar Rivaldi 2020"
+            android:text="@string/klinik_mobile_by_kelompok_1"
             android:textColor="#92A7AB"
             android:textSize="12sp" />
 

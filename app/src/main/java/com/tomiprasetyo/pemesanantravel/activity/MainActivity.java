@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void bookKereta(View v) {
-        Intent i = new Intent(this, BookKeretaActivity.class);
+        Intent i = new Intent(this, BookKlinikActivity.class);
         startActivity(i);
     }
 

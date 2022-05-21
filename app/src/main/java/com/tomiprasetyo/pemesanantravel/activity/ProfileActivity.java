@@ -56,7 +56,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     private void setupToolbar() {
         Toolbar toolbar = findViewById(R.id.tbProfile);
-        toolbar.setTitle("Identitas Penyewa");
+        toolbar.setTitle("Identitas Pasien");
         setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
     }

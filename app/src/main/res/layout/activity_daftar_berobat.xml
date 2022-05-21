@@ -44,7 +44,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginBottom="8dp"
                         android:gravity="center"
-                        android:text="Tujuan Perjalanan"
+                        android:text="Tujuan Berobat"
                         android:textAllCaps="true"
                         android:textColor="@color/colorPrimary"
                         android:textSize="19sp"
@@ -54,7 +54,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical"
-                        android:text="Asal"
+                        android:text="Pasein Baru / Lama"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                         android:textColor="@color/black" />
 
@@ -68,7 +68,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical"
-                        android:text="Tujuan"
+                        android:text="Tujuan Berobat"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                         android:textColor="@color/black" />
 
@@ -102,19 +102,19 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:gravity="center"
-                        android:text="Waktu Perjalanan"
+                        android:text="Tanggal Berobat"
                         android:textAllCaps="true"
                         android:textColor="@color/colorPrimary"
                         android:textSize="19sp"
                         android:textStyle="bold" />
 
                     <EditText
-                        android:id="@+id/tanggal_berangkat"
+                        android:id="@+id/tanggal_pendaftaran"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/ic_date"
                         android:drawablePadding="20dp"
-                        android:hint="Tanggal Berangkat"
+                        android:hint="Tanggal Pendaftaran"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                         android:textColor="@color/colorPrimary"
                         android:textColorHint="#BACBCF" />
@@ -144,7 +144,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:gravity="center"
-                        android:text="JUMLAH"
+                        android:text="Pasien"
                         android:textAllCaps="true"
                         android:textColor="@color/colorPrimary"
                         android:textSize="19sp"
@@ -187,7 +187,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="24dp"
-                android:text="Booking Sekarang"
+                android:text="Daftar"
                 android:textColor="@android:color/white"
                 android:textSize="16sp"
                 android:theme="@style/Theme.MaterialComponents.Light"

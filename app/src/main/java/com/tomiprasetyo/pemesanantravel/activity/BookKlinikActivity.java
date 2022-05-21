@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -27,7 +26,7 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Objects;
 
-public class BookKeretaActivity extends AppCompatActivity {
+public class BookKlinikActivity extends AppCompatActivity {
 
     protected Cursor cursor;
     DatabaseHelper dbHelper;
@@ -47,13 +46,13 @@ public class BookKeretaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_book_kereta);
+        setContentView(R.layout.activity_daftar_berobat);
 
-        dbHelper = new DatabaseHelper(BookKeretaActivity.this);
+        dbHelper = new DatabaseHelper(BookKlinikActivity.this);
         db = dbHelper.getReadableDatabase();
 
-        final String[] asal = {"Jakarta", "Bandung", "Purwokerto", "Yogyakarta", "Surabaya"};
-        final String[] tujuan = {"Jakarta", "Bandung", "Purwokerto", "Yogyakarta", "Surabaya"};
+        final String[] asal = {"Baru", "Lama"};
+        final String[] tujuan = {"Dokter Umum", "Dokter Spesialis"};
         final String[] dewasa = {"0", "1", "2", "3", "4", "5"};
         final String[] anak = {"0", "1", "2", "3", "4", "5"};
 
@@ -128,7 +127,7 @@ public class BookKeretaActivity extends AppCompatActivity {
 
         Button btnBook = findViewById(R.id.book);
 
-        etTanggal = findViewById(R.id.tanggal_berangkat);
+        etTanggal = findViewById(R.id.tanggal_pendaftaran);
         etTanggal.setInputType(InputType.TYPE_NULL);
         etTanggal.requestFocus();
         session = new SessionManager(getApplicationContext());
@@ -144,10 +143,10 @@ public class BookKeretaActivity extends AppCompatActivity {
                         || (sAsal.equalsIgnoreCase("purwokerto") && sTujuan.equalsIgnoreCase("purwokerto"))
                         || (sAsal.equalsIgnoreCase("yogyakarta") && sTujuan.equalsIgnoreCase("yogyakarta"))
                         || (sAsal.equalsIgnoreCase("surabaya") && sTujuan.equalsIgnoreCase("surabaya"))) {
-                    Toast.makeText(BookKeretaActivity.this, "Asal dan Tujuan tidak boleh sama !", Toast.LENGTH_LONG).show();
+                    Toast.makeText(BookKlinikActivity.this, "Asal dan Tujuan tidak boleh sama !", Toast.LENGTH_LONG).show();
                 } else {
-                    AlertDialog dialog = new AlertDialog.Builder(BookKeretaActivity.this)
-                            .setTitle("Ingin booking kereta sekarang?")
+                    AlertDialog dialog = new AlertDialog.Builder(BookKlinikActivity.this)
+                            .setTitle("Ingin daftar berobat sekarang?")
                             .setPositiveButton("Ya", (dialog1, which) -> {
                                 try {
                                     db.execSQL("INSERT INTO TB_BOOK (asal, tujuan, tanggal, dewasa, anak) VALUES ('" +
@@ -168,10 +167,10 @@ public class BookKeretaActivity extends AppCompatActivity {
                                             hargaTotalDewasa + "','" +
                                             hargaTotalAnak + "','" +
                                             hargaTotal + "');");
-                                    Toast.makeText(BookKeretaActivity.this, "Booking berhasil", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(BookKlinikActivity.this, "Daftar berhasil", Toast.LENGTH_LONG).show();
                                     finish();
                                 } catch (Exception e) {
-                                    Toast.makeText(BookKeretaActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
+                                    Toast.makeText(BookKlinikActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
                                 }
                             })
                             .setNegativeButton("Tidak", null)
@@ -179,7 +178,7 @@ public class BookKeretaActivity extends AppCompatActivity {
                     dialog.show();
                 }
             } else {
-                Toast.makeText(BookKeretaActivity.this, "Mohon lengkapi data pemesanan!", Toast.LENGTH_LONG).show();
+                Toast.makeText(BookKlinikActivity.this, "Mohon lengkapi data pendaftaran!", Toast.LENGTH_LONG).show();
             }
         });
 

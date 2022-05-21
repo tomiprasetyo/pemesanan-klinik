@@ -9,22 +9,28 @@
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/bg_menu.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/book_hotel.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/book_kereta.xml" value="0.2485" />
+        <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/book_klinik.xml" value="0.1455" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/button_main.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/circletransparant.xml" value="0.2485" />
+        <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/daftar_berobat.xml" value="0.2485" />
+        <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/gambar_profile.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/ic_date.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/ic_email.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/ic_fail.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2485" />
+        <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/ic_password.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/ic_person.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/ic_success.xml" value="0.2485" />
+        <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/info_klinik.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/notification.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/drawable/profile.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/layout/activity_book_kereta.xml" value="0.35778985507246375" />
+        <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/layout/activity_daftar_berobat.xml" value="0.1" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/layout/activity_history.xml" value="0.35778985507246375" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/layout/activity_login.xml" value="0.35778985507246375" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/layout/activity_main.xml" value="0.35778985507246375" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/layout/activity_profile.xml" value="0.35778985507246375" />
-        <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/layout/activity_register.xml" value="0.35778985507246375" />
+        <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/layout/list_item_booking.xml" value="0.35778985507246375" />
         <entry key="..\:/Development/ANDROID/PemesananTravel/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1925" />
       </map>

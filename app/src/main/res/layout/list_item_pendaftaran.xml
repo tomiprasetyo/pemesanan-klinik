@@ -77,7 +77,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="start"
                     android:textColor="@color/black"
-                    tools:text="Berhasil melakukan booking untuk melakukan perjalanan dari Jakarta menuju Bandung pada tanggal 30 September 2017. Jumlah pembelian tiket dewasa sejumlah 1 dan tiket anak-anak sejumlah 0." />
+                    tools:text="Berhasil melakukan pendaftaran untuk berobat" />
 
             </LinearLayout>
 

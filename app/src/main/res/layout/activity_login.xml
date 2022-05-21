@@ -25,7 +25,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="25dp"
             android:elevation="5dp"
-            android:text="Travel Apps Booking"
+            android:text="@string/klinik_mobile"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
 
@@ -36,7 +36,7 @@
             android:layout_below="@+id/tvDesc"
             android:layout_alignStart="@+id/tvDesc"
             android:elevation="5dp"
-            android:text="Login"
+            android:text="@string/login"
             android:textColor="@android:color/white"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -129,7 +129,7 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="@color/colorPrimaryDark"
                                 android:drawableStart="@drawable/ic_email"
-                                android:hint="     Masukkan Email"
+                                android:hint="@string/masukkan_email"
                                 android:imeOptions="actionNext"
                                 android:inputType="textEmailAddress"
                                 android:maxLines="1"
@@ -151,7 +151,7 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="@color/colorPrimaryDark"
                                 android:drawableStart="@drawable/ic_password"
-                                android:hint="     Password"
+                                android:hint="@string/password"
                                 android:imeOptions="actionDone"
                                 android:inputType="textPassword"
                                 android:maxLines="1"
@@ -208,7 +208,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            android:text="© Travel Apps by Tomi Prasetyo"
+            android:text="@string/klinik_mobile_by_kelompok_1"
             android:textColor="#92A7AB"
             android:textSize="12sp" />
 

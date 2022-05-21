@@ -38,7 +38,7 @@
             android:name=".activity.HistoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.BookKeretaActivity"
+            android:name=".activity.BookKlinikActivity"
             android:screenOrientation="portrait" />
     </application>
 

@@ -55,7 +55,7 @@ public class HistoryActivity extends AppCompatActivity {
 
     private void setupToolbar() {
         Toolbar toolbar = findViewById(R.id.tbHistory);
-        toolbar.setTitle("Riwayat Booking");
+        toolbar.setTitle("Riwayat Pendaftaran");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
@@ -82,8 +82,8 @@ public class HistoryActivity extends AppCompatActivity {
             dewasa = cursor.getString(4);
             anak = cursor.getString(5);
             total = cursor.getString(10);
-            riwayat = "Berhasil melakukan booking untuk melakukan perjalanan dari " + asal + " menuju " + tujuan + " pada tanggal " + tanggal + ". " +
-                    "Jumlah pembelian tiket dewasa sejumlah " + dewasa + " dan tiket anak-anak sejumlah " + anak + ".";
+            riwayat = "Berhasil melakukan pendaftaran untuk berobat pasien " + asal + " ke " + tujuan + " pada tanggal " + tanggal + ". " +
+                    "Dewasa sebanyak " + dewasa + " dan anak-anak sebanyak " + anak + ".";
             hasil.add(new HistoryModel(id_book, tanggal, riwayat, total, R.drawable.gambar_profile));
         }
 
